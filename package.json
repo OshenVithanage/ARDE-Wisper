@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OshenVithanage/ARDE-Wisper.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OshenVithanage/ARDE-Wisper/issues"
   },
-  "homepage": "https://github.com/OshenVithanage/ARDE-Wisper#readme"
+  "homepage": "https://github.com/OshenVithanage/ARDE-Wisper#readme",
+  "devDependencies": {
+    "electron": "^38.0.0"
+  }
 }
